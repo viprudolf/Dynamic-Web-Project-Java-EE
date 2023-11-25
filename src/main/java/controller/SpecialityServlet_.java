@@ -16,6 +16,7 @@ public class SpecialityServlet_ extends HttpServlet {
     public SpecialityServlet_() {
         super();
         // TODO Auto-generated constructor stub
+        // just comment
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
