@@ -9,10 +9,6 @@ public class FormEducation {
 
     public FormEducation(Long id, String nameForm) {
         this.id = id;
-        new FormEducation(nameForm);
-    }
-
-    public FormEducation(String nameForm) {
         this.nameForm = nameForm;
     }
 

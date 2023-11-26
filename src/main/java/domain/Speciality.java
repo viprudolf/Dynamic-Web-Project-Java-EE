@@ -9,7 +9,8 @@ public class Speciality {
 
     public Speciality(Long id, String nameSpeciality, String profile) {
         this.id = id;
-        new Speciality(nameSpeciality, profile);
+        this.nameSpeciality = nameSpeciality;
+        this.profile = profile;
     }
 
     public Speciality(String nameSpeciality, String profile) {

@@ -7,12 +7,8 @@ public class Qualification {
     public Qualification() {
     }
 
-    public Qualification(Long id, String nameForm) {
+    public Qualification(Long id, String nameQualification) {
         this.id = id;
-        new Qualification(nameForm);
-    }
-
-    public Qualification(String nameQualification) {
         this.nameQualification = nameQualification;
     }
 

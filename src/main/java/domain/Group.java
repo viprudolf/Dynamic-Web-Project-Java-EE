@@ -32,8 +32,17 @@ public class Group {
             FormEducation formEducation
     ) {
         this.id = id;
-
-        new Group(faculty, name, course, countStudent, countSubgroups, idSpeciality, speciality, idQualification, qualification, idFormEducation, formEducation);
+        this.faculty = faculty;
+        this.name = name;
+        this.course = course;
+        this.countStudent = countStudent;
+        this.countSubgroups = countSubgroups;
+        this.idSpeciality = idSpeciality;
+        this.speciality = speciality;
+        this.idQualification = idQualification;
+        this.qualification = qualification;
+        this.idFormEducation = idFormEducation;
+        this.formEducation = formEducation;
     }
 
     public Group(

@@ -20,13 +20,7 @@ public class SpecialityServlet_ extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html");
-        PrintWriter writer = response.getWriter();
-        try {
-            writer.println("<h2>Speciality servlet</h2>");
-        } finally {
-            writer.close();
-        }
+        request.getRequestDispatcher("views/Speciality.jsp").forward(request, response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
