@@ -37,8 +37,7 @@ n.js"></script>
     <jsp:include page="/views/header.jsp" />
     <div class="container-fluid">
         <div class="row justify-content-start ">
-            div class="col-8 border bg-light px-4">
-            <h3>Список сотрудников</h3>
+            <h3>Список квалификаций</h3>
             <table class="table">
                 <thead>
                 <th scope="col">Код</th>
@@ -53,13 +52,11 @@ n.js"></script>
                         <td>${person.GetNameQualification()}</td>
                         <td width="20"><a href="#" role="button"
                                           class="btn btn-outline-primary">
-                            <img alt="Редактировать"
-                                 src="images/icon-edit.png"></a>
+                            Редактировать</a>
                         </td>
                         <td width="20"><a href="#" role="button"
                                           class="btn btn-outline-primary">
-                            <img alt="Удалить"
-                                 src="images/icon-delete.png"></a>
+                            Удалить</a>
                         </td>
                     </tr>
                 </c:forEach>

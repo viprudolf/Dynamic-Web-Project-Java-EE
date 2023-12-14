@@ -36,7 +36,7 @@
     <div class="container-fluid">
         <div class="row justify-content-start ">
             <div class="col-8 border bg-light px-4">
-                <h3>Список должностей</h3>
+                <h3>Список форм обучения</h3>
                 <table class="table">
                     <thead>
                     <th scope="col">Код</th>
@@ -50,9 +50,9 @@
                             <td>${formEducation.GetId()}</td>
                             <td>${formEducation.GetNameForm()}</td>
                             <td width="20"><a href="#" role="button" class="btn btn-outline-primary">
-                                <img alt="Редактировать" src="images/icon-edit.png"></a></td>
+                                Редактировать</a></td>
                             <td width="20"><a href="#" role="button" class="btn btn-outline-primary">
-                                <img alt="Удалить" src="images/icon-delete.png"></a></td>
+                                Удалить</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>
@@ -71,8 +71,7 @@
                         </div>
                     </div>
                     <p> <br>
-                        <button type="submit"
-                                class="btn btn-primary">Добавить</button>
+                        <button type="submit" class="btn btn-primary">Добавить</button>
                     </p>
                 </form>
             </div>
